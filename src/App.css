@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar{
+  width: 8px;
+  background-color: grey;
+}
+
+a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+
+.App{
+  min-height: 95vh;
+  border: 5px solid #333;
+  margin: 5px;
+  padding: 5px;
+}
